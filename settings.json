@@ -73,4 +73,7 @@
 
     // latex settings
     "latex-workshop.view.pdf.viewer": "tab",
+
+    // arduinon settings
+    "arduino.path": "~/arduino-1.8.8",
 }
