@@ -1,0 +1,76 @@
+{
+    //workbench settings
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": true,
+
+    // editor settings
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.fontFamily": "'Ubuntu Mono'",
+    "editor.fontSize": 16,
+    "editor.rulers": [ 79 ],
+    "editor.detectIndentation": true,
+    "editor.quickSuggestionsDelay": 100,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.snippetSuggestions": "none",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabCompletion": "on",
+    "editor.renderControlCharacters": true,
+
+    // window settings
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 0,
+
+    // file settings
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.C": "cpp",
+        "*.H": "cpp"
+    },
+
+    // integrated terminal settings
+    "terminal.integrated.fontFamily": "'Ubuntu Mono",
+    "terminal.integrated.fontSize": 16,
+
+    // zen mode settings
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": true,
+
+    // explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // terminal settings
+    "terminal.integrated.shell.windows": "C:\\cygwin\\bin\\bash.exe",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shellArgs.windows": [ "-l" ],
+    "terminal.integrated.shellArgs.linux": [ ],
+    "terminal.integrated.env.windows": { "CHERE_INVOKING": "1" },
+    "terminal.integrated.env.linux": { },
+
+    // misc settings
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    // C/C++ settings
+    "C_Cpp.formatting": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseCacheSize": 5120,
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.autocomplete": "Default",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+
+    // latex settings
+    "latex-workshop.view.pdf.viewer": "tab",
+}
