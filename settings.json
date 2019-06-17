@@ -3,25 +3,33 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.startupEditor": "none",
     "workbench.activityBar.visible": true,
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "workbench.settings.useSplitJSON": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.centeredLayoutAutoResize": false,
 
     // editor settings
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Ubuntu Mono'",
-    "editor.fontSize": 16,
-    "editor.rulers": [ 79 ],
+    "editor.fontSize": 15,
+    "editor.rulers": [ 79, 83 ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 79,
+    "editor.wrappingIndent": "indent",
     "editor.detectIndentation": true,
+    "editor.tabCompletion": "on",
+    "editor.renderControlCharacters": true,
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggestOnTriggerCharacters": true,
     "editor.quickSuggestionsDelay": 100,
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
         "strings": false
     },
-    "editor.snippetSuggestions": "none",
-    "editor.suggestOnTriggerCharacters": true,
-    "editor.tabCompletion": "on",
-    "editor.renderControlCharacters": true,
 
     // window settings
     "window.menuBarVisibility": "toggle",
@@ -39,19 +47,20 @@
     "terminal.integrated.fontSize": 16,
 
     // zen mode settings
-    "zenMode.centerLayout": false,
+    "zenMode.centerLayout": true,
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
+    "zenMode.hideTabs": true,
     "zenMode.fullScreen": false,
     "zenMode.hideActivityBar": true,
     "zenMode.hideStatusBar": true,
+    "zenMode.restore": true,
 
     // explorer settings
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
 
     // terminal settings
-    "terminal.integrated.shell.windows": "C:\\cygwin\\bin\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
     "terminal.integrated.shell.linux": "/bin/bash",
     "terminal.integrated.shellArgs.windows": [ "-l" ],
     "terminal.integrated.shellArgs.linux": [ ],
