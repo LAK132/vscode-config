@@ -8,6 +8,7 @@
     "workbench.statusBar.feedback.visible": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.centeredLayoutAutoResize": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 
     // editor settings
     "editor.minimap.enabled": false,
