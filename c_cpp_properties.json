@@ -1,0 +1,24 @@
+{
+    "env": {
+        "linuxArduinoPackages": "~/.arduino15/packages",
+        "linuxArduinoLibraries": "~/Arduino/libraries"
+    },
+    "configurations": [
+        {
+            "name": "Linux-Arduino-ESP32",
+            "includePath": [
+                "${linuxArduinoPackages}/esp32/hardware/esp32/1.0.2/tools/**",
+                "${linuxArduinoPackages}/esp32/hardware/esp32/1.0.2/**",
+                "${linuxArduinoPackages}/esp32/hardware/esp32/1.0.2/cores/**",
+                "${linuxArduinoPackages}/esp32/hardware/esp32/1.0.2/cores/esp32/**",
+                "${linuxArduinoLibraries}/**"
+            ],
+            "forcedInclude": [],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
