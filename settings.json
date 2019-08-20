@@ -1,11 +1,11 @@
 {
     //workbench settings
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Henna",
     "workbench.startupEditor": "none",
     "workbench.activityBar.visible": true,
     "workbench.quickOpen.closeOnFocusLost": false,
     "workbench.settings.useSplitJSON": false,
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.sideBar.location": "left",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.centeredLayoutAutoResize": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -15,13 +15,16 @@
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Ubuntu Mono'",
-    "editor.fontSize": 15,
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
     "editor.rulers": [ 79, 83 ],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 79,
     "editor.wrappingIndent": "indent",
     "editor.detectIndentation": true,
     "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "bottom",
     "editor.suggestOnTriggerCharacters": true,
@@ -40,12 +43,13 @@
     "files.trimTrailingWhitespace": true,
     "files.associations": {
         "*.C": "cpp",
-        "*.H": "cpp"
+        "*.H": "cpp",
+        "*.cake": "python"
     },
 
     // integrated terminal settings
-    "terminal.integrated.fontFamily": "'Ubuntu Mono",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "'Ubuntu Mono'",
+    "terminal.integrated.fontSize": 17,
 
     // zen mode settings
     "zenMode.centerLayout": true,
@@ -71,6 +75,9 @@
     // misc settings
     "breadcrumbs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
+
+    // Indent to bracket settings
+    "indent-to-bracket.useDefaultIndentationAfterEmptyBracket": false,
 
     // C/C++ settings
     "C_Cpp.formatting": "Disabled",
