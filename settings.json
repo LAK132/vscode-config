@@ -24,6 +24,7 @@
     "editor.wrappingIndent": "indent",
     "editor.detectIndentation": true,
     "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "bottom",
@@ -72,11 +73,13 @@
     "terminal.integrated.env.windows": { "CHERE_INVOKING": "1" },
     "terminal.integrated.env.linux": { },
 
-    // misc settings
+    // bread crumbs settings
     "breadcrumbs.enabled": true,
+
+    // diff editor settings
     "diffEditor.ignoreTrimWhitespace": false,
 
-    // Indent to bracket settings
+    // indent to bracket settings
     "indent-to-bracket.useDefaultIndentationAfterEmptyBracket": false,
 
     // C/C++ settings
@@ -90,4 +93,7 @@
 
     // latex settings
     "latex-workshop.view.pdf.viewer": "tab",
+
+    // git settings
+    "git.confirmSync": false,
 }
