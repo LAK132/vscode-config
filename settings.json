@@ -14,10 +14,11 @@
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "'Ubuntu Mono'",
+    "editor.fontFamily": "'Pet Me 128 2Y', 'Ubuntu Mono'",
     "editor.fontWeight": "normal",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
+    "editor.cursorStyle": "block",
     "editor.rulers": [ 79, 83 ],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 79,
@@ -49,8 +50,8 @@
     },
 
     // integrated terminal settings
-    "terminal.integrated.fontFamily": "'IBM 3270', 'Ubuntu Mono'",
-    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontFamily": "'Pet Me 128 2Y', 'Ubuntu Mono'",
+    "terminal.integrated.fontSize": 18,
 
     // zen mode settings
     "zenMode.centerLayout": true,
