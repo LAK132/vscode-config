@@ -49,7 +49,7 @@
     },
 
     // integrated terminal settings
-    "terminal.integrated.fontFamily": "'Ubuntu Mono'",
+    "terminal.integrated.fontFamily": "'IBM 3270', 'Ubuntu Mono'",
     "terminal.integrated.fontSize": 17,
 
     // zen mode settings
