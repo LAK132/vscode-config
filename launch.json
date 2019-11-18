@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "debug",
+      "request": "attach",
+      "windows": {
+        "type": "cppvsdbg"
+      },
+      "linux": {
+      },
+      "processId": "${command:pickProcess}"
+    }
+  ]
+}
