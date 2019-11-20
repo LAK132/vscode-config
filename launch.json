@@ -9,10 +9,10 @@
     },
     {
       "name": "linux",
-      "program": "",
-      "request": "attach",
+      "program": "${workspaceRoot}/bin/output.elf",
+      "request": "launch",
       "type": "cppdbg",
-      "processId": "${command:pickProcess}",
+      "cwd": "${workspaceRoot}/bin",
     }
   ]
 }
