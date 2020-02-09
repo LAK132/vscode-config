@@ -1,6 +1,6 @@
 {
     //workbench settings
-    "workbench.colorTheme": "Henna",
+    "workbench.colorTheme": "Midnight Garden",
     "workbench.startupEditor": "none",
     "workbench.activityBar.visible": true,
     "workbench.quickOpen.closeOnFocusLost": false,
@@ -14,7 +14,7 @@
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "'Pet Me 128 2Y', 'Ubuntu Mono'",
+    "editor.fontFamily": "liganoki",
     "editor.fontWeight": "normal",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -26,6 +26,7 @@
     "editor.detectIndentation": true,
     "editor.tabCompletion": "on",
     "editor.tabSize": 2,
+    "editor.indentSize": 2,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "bottom",
@@ -50,8 +51,8 @@
     },
 
     // integrated terminal settings
-    "terminal.integrated.fontFamily": "'Pet Me 128 2Y', 'Ubuntu Mono'",
-    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "liganoki",
+    "terminal.integrated.fontSize": 16,
 
     // zen mode settings
     "zenMode.centerLayout": true,
@@ -97,4 +98,6 @@
 
     // git settings
     "git.confirmSync": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false
 }
