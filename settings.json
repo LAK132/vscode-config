@@ -1,6 +1,6 @@
 {
     //workbench settings
-    "workbench.colorTheme": "Midnight Garden",
+    "workbench.colorTheme": "Moonlit Outback",
     "workbench.startupEditor": "none",
     "workbench.activityBar.visible": true,
     "workbench.quickOpen.closeOnFocusLost": false,
@@ -9,24 +9,37 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.centeredLayoutAutoResize": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "default",
+        "*.bit": "default"
+    },
 
     // editor settings
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "liganoki",
+    "[verilog]": {
+        "editor.fontLigatures": false,
+    },
+    "[vhdl]": {
+        "editor.fontLigatures": false,
+    },
     "editor.fontWeight": "normal",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.cursorStyle": "block",
     "editor.rulers": [ 79, 83 ],
     "editor.wordWrap": "wordWrapColumn",
+    "[plaintext]": {
+        "editor.rulers": [ ],
+        "editor.wordWrap": "off"
+    },
     "editor.wordWrapColumn": 79,
     "editor.wrappingIndent": "indent",
     "editor.detectIndentation": true,
     "editor.tabCompletion": "on",
     "editor.tabSize": 2,
-    "editor.indentSize": 2,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "bottom",
@@ -37,16 +50,23 @@
         "comments": false,
         "strings": false
     },
+    "editor.useTabStops": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 5,
+    "editor.insertSpaces": false,
+    "editor.accessibilitySupport": "off",
 
     // window settings
     "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 0,
 
     // file settings
     "files.trimTrailingWhitespace": true,
     "files.associations": {
         "*.C": "cpp",
+        "*.cc": "cpp",
         "*.H": "cpp",
+        "*.ih": "cpp",
+        "*.inc": "cpp",
         "*.cake": "python"
     },
 
@@ -68,12 +88,26 @@
     "explorer.confirmDelete": false,
 
     // terminal settings
-    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "terminal.integrated.shellArgs.windows": [ "-l" ],
-    "terminal.integrated.shellArgs.linux": [ ],
-    "terminal.integrated.env.windows": { "CHERE_INVOKING": "1" },
-    "terminal.integrated.env.linux": { },
+    "terminal.integrated.enableBell": true,
+
+    "terminal.integrated.profiles.windows": {
+        "wsl": {
+            "path": "wsl.exe"
+        },
+        "cygwin": {
+            "path": "C:\\cygwin64\\bin\\bash.exe",
+            "args": [ "-l" ],
+            "env": { "CHERE_INVOKING": "1" }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "wsl",
+
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
 
     // bread crumbs settings
     "breadcrumbs.enabled": true,
@@ -84,6 +118,15 @@
     // indent to bracket settings
     "indent-to-bracket.useDefaultIndentationAfterEmptyBracket": false,
 
+    // extension settings
+    "extensions.ignoreRecommendations": true,
+
+    // meson settings
+    "mesonbuild.configureOnOpen": false,
+
+    // cmake settings
+    "cmake.configureOnOpen": false,
+
     // C/C++ settings
     "C_Cpp.formatting": "Disabled",
     "C_Cpp.intelliSenseEngine": "Default",
@@ -93,11 +136,40 @@
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
 
+    // stretch-spaces settings
+    "stretchySpaces.targetIndentation": 2,
+    "stretchySpaces.includedLanguages": ["cpp", "c", "rust"],
+    "stretchySpaces.excludedLanguages": ["python"],
+
+    // Scrolloff settings
+    "scrolloff.alwaysCenter": true,
+
+    // clang-format settings
+    "clang-format.executable": "clang-format",
+    // "editor.formatOnSaveMode": "modifications",
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+
     // latex settings
     "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "never",
 
     // git settings
     "git.confirmSync": false,
+    "git.ignoreWindowsGit27Warning": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false
 }
